@@ -1,0 +1,40 @@
+<!DOCTYPE webproject>
+<webproject>
+  <project type="Local" name="gh_listsubscribe" encoding="utf8" >
+    <upload/>
+    <author>Gregor Hermens</author>
+    <email>gregor@a-mazing.de</email>
+    <defaultDTD>-//W3C//DTD XHTML 1.0 Transitional//EN</defaultDTD>
+    <item url="doc/" uploadstatus="1" />
+    <item url="doc/wizard_form.dat" uploadstatus="1" />
+    <item url="doc/wizard_form.html" uploadstatus="1" />
+    <item url="pi1/" uploadstatus="1" />
+    <item url="pi1/static/" uploadstatus="1" />
+    <item url="pi1/static/editorcfg.txt" uploadstatus="1" />
+    <item url="pi1/ce_wiz.gif" uploadstatus="1" />
+    <item url="pi1/class.tx_ghlistsubscribe_pi1.php" uploadstatus="1" />
+    <item url="pi1/class.tx_ghlistsubscribe_pi1_wizicon.php" uploadstatus="1" />
+    <item url="pi1/clear.gif" uploadstatus="1" />
+    <item url="pi1/locallang.xml" uploadstatus="1" />
+    <item url="static/" uploadstatus="1" />
+    <item url="ChangeLog" uploadstatus="1" />
+    <item url="ext_emconf.php" uploadstatus="1" />
+    <item url="ext_icon.gif" uploadstatus="1" />
+    <item url="ext_localconf.php" uploadstatus="1" />
+    <item url="ext_tables.php" uploadstatus="1" />
+    <item url="ext_tables.sql" uploadstatus="1" />
+    <item url="icon_tx_ghlistsubscribe_lists.gif" uploadstatus="1" />
+    <item url="locallang_db.xml" uploadstatus="1" />
+    <item url="locallang.xml" uploadstatus="1" />
+    <item url="README.txt" uploadstatus="1" />
+    <item url="tca.php" uploadstatus="1" />
+    <item url="" uploadstatus="1" />
+    <templates>templates/</templates>
+    <toolbars>toolbars/</toolbars>
+    <item url="pi1/static/constants.txt" />
+    <item url="pi1/static/setup.txt" />
+    <annotations/>
+    <item url="flexform_ds.xml" />
+    <item url="doc/changelog.txt" />
+  </project>
+</webproject>

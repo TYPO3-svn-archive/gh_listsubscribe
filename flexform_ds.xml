@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Allgemein</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<outputType>
+						<TCEforms>
+							<label>Ausgabe</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">Formular</numIndex>
+										<numIndex index="1">form</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">Listenübersicht</numIndex>
+										<numIndex index="1">list</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</outputType>
+					<pidList>
+						<TCEforms>
+							<label>Listen von Seite</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>3</size>
+								<maxitems>22</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</pidList>
+					<recursive>
+						<TCEforms>
+							<label>Unterseiten einschließen</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</recursive>
+				</el>
+			</ROOT>
+		</sDEF>
+		<sForm>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Formular</sheetTitle>
+				</TCEforms>
+				<el>
+					<hideSingle>
+						<TCEforms>
+							<label>Einzelne Liste verstecken</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</hideSingle>
+					<formLayout>
+						<TCEforms>
+							<label>Formular-Layout</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0"></numIndex>
+										<numIndex index="1">ts</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">normal</numIndex>
+										<numIndex index="1">default</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">klein</numIndex>
+										<numIndex index="1">small</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</formLayout>
+					<targetPid>
+						<TCEforms>
+							<label>Zielseite</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</targetPid>
+				</el>
+			</ROOT>
+		</sForm>
+	</sheets>
+</T3DataStructure>

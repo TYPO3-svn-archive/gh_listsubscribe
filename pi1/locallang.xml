@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_ghlistsubscribe_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="list">List</label>
+			<label index="name">Name</label>
+			<label index="email">Email</label>
+			<label index="email_error">Please insert a valid email address</label>
+			<label index="action">Action</label>
+			<label index="subscribe">Subscribe</label>
+			<label index="unsubscribe">Unsubscribe</label>
+			<label index="submit">Submit</label>
+			<label index="success_message">Thank you for your request. A confirmation mail has been sent to ###EMAIL###. Please follow the instructions in this mail to finish your request.</label>
+			<label index="error_message">An error ocurred while processing your request. Please try again or send an error report to ###WEBMASTER###.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="list">Liste</label>
+			<label index="name">Name</label>
+			<label index="email">Email</label>
+			<label index="email_error">Bitte geben Sie eine gültige Email ein</label>
+			<label index="action">Aktion</label>
+			<label index="subscribe">Eintragen</label>
+			<label index="unsubscribe">Austragen</label>
+			<label index="submit">Abschicken</label>
+			<label index="success_message">Vielen Dank für Ihre Anfrage. Es wurde eine Bestätigungsmail an ###EMAIL### verschickt. Bitte folgen Sie den Anweisungen in dieser Mail, um die Aktion abzuschließen.</label>
+			<label index="error_message">Bei der Bearbeitung Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder melden das Problem an ###WEBMASTER###.</label>
+		</languageKey>
+	</data>
+</T3locallang>

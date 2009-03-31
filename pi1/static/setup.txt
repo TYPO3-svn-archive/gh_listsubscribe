@@ -1,0 +1,85 @@
+plugin.tx_ghlistsubscribe_pi1 {
+	webmaster = webmaster@example.com
+	outputType = form
+	pidList =
+	recursive = 0
+	hideSingle = 1
+	targetPid =
+	formLayout = default
+	listLayout = default
+
+	formConf {
+		default {
+			layout = <div class="ghlistsubscribe-field">###LABEL### ###FIELD###</div>
+			LABEL.layout = <div class="ghlistsubscribe-error">###FIELD###</div>
+			method = post
+			no_cache = 1
+			wrapFieldName = tx_ghlistsubscribe_pi1[|]
+			params.submit = class="ghlistsubscribe-submit"
+			stdWrap.wrap = <fieldset class="ghlistsubscribe"><div class="ghlistsubscribe-text"><label for="ghlistsubscribeformtext1">Text:</label><input id="ghlistsubscribeformtext1" type="text" value="" size="20" name="tx_ghlistsubscribe_pi1[text]"/></div>|</fieldset>
+			accessibility = 1
+			formName = ghlistsubscribeform
+			dontMD5FieldNames = 1
+			noNameField = 0
+			subscribeOnly = 0
+		}
+
+		small < .default
+		small {
+			layout = <div class="ghlistsubscribe-field">###FIELD###</div>
+			formName = ghlistsubscribeformsmall
+			noNameField = 1
+			subscribeOnly = 1
+		}
+	}
+
+	listConf {
+		default {
+			listWrap.wrap = <dl>|</dl>
+			nameWrap.wrap = <dt>|</dt>
+			descriptionWrap {
+				wrap = <dd>|</dd>
+				br = 1
+			}
+		}
+	}
+
+	_CSS_DEFAULT_STYLE (
+		fieldset.ghlistsubscribe {
+			padding: .5em .5em 0 .5em;
+		}
+		.ghlistsubscribe-text {
+			display: none;
+		}
+		.ghlistsubscribe-field {
+			clear: both;
+			margin-bottom: .5em;
+		}
+		.ghlistsubscribe-field label {
+			float: left;
+			width: 4em;
+			padding-right: .5em;
+			text-align: right;
+		}
+		.ghlistsubscribe-error {
+			color: red;
+			font-size: .8em;
+		}
+		.ghlistsubscribe-submit {
+			margin-left: 5em;
+		}
+		#ghlistsubscribeformsmall .ghlistsubscribe-submit {
+			margin-left: 0;
+		}
+		.tx-ghlistsubscribe-pi1 dl {
+			margin: .5em 0;
+		}
+		.tx-ghlistsubscribe-pi1 dt {
+			font-weight: bold;
+		}
+		.tx-ghlistsubscribe-pi1 dd {
+			padding-left: 1em;
+			margin: .5em 0;
+		}
+	)
+}

@@ -1,0 +1,13 @@
+2009-03-31
+* added subscribeOnly parameter
+* added lots of comments
+
+2009-03-30
+* added field "name" to subscription form
+* added target page
+* release of version 0.0.2
+* bugfix: no name field in form layout "small"
+* release of version 0.0.3
+
+2009-03-29
+* release of version 0.0.1, initial upload to TER
